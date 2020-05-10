@@ -30,7 +30,7 @@ import Layout from '@/layout'
  * 也就是任何角色用户都可以访问的所有路由的数组
  */
 export const constantRoutes = [
-  // 登陆
+  // 登录
   {
     path: '/login',
     component: () => import('@/views/login/index'),

@@ -6,8 +6,8 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 // import locale from 'element-ui/lib/locale/lang/zh-CN' // lang i18n
 
-import './test/es-module/test2'
-import './test/es-module/test4'
+// import './test/es-module/test2'
+// import './test/es-module/test4'
 
 import '@/styles/index.scss' // global css
 
@@ -22,7 +22,7 @@ import { hasBtnPermission } from './utils/permission'
 // 引入了所有的接口函数(接口文件,在api目录中的index.js)
 import * as API from '@/api'
 import HintButton from '@/components/HintButton'
-import CategorySelector from '@/components/CategorySelector'
+import CategorySelector from '@/views/product/components/CategorySelector'
 
 // 注册全局组件
 Vue.component('HintButton', HintButton)
