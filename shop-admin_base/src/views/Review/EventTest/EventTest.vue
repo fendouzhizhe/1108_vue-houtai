@@ -22,14 +22,14 @@
     -->
     <!--html标签上只能绑定原生事件监听-->
     <button @click="showMsg1">测试原生事件</button>
-    <hr/>
+    <hr>
     <!--此时绑定的事件不是原生事件监听,所以,不会触发-->
     <!-- <Event1 @click="showMsg2" /> -->
-    <hr/>
+    <hr>
     <!--此时绑定的是原生事件监听,并且自动的绑定到了组件内部的根标签上,内部使用了事件委托-->
-     <Event1 @click.native="showMsg3" />
-     <!--触发组件标签的自定义事件,怎么办呢?-->
-     <Event2 @click="showMsg4" @xxx="showMsg5" />
+    <Event1 @click.native="showMsg3" />
+    <!--触发组件标签的自定义事件,怎么办呢?-->
+    <Event2 @click="showMsg4" @xxx="showMsg5" />
   </div>
 </template>
 

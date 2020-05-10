@@ -7,7 +7,7 @@
 <script>
 
 export default {
-  name: 'PropList',
+  name: 'PropList'
 }
 </script>
 

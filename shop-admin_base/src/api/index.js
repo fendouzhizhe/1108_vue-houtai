@@ -7,3 +7,5 @@ export { default as clientUser } from './clientUser'
 export { default as order } from './order'
 // 导出 导入默认暴露的trademark模块
 export { default as trademark } from './product/trademark'
+// 导出  导入默认暴露的attr模块
+export { default as attr } from './product/attr'

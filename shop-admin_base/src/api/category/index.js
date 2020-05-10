@@ -2,7 +2,7 @@ import request from '@/utils/request'
 
 export default {
 
-  /* 
+  /* *
   查找一级分类列表
   */
   getCategorys1() {
@@ -12,7 +12,7 @@ export default {
     })
   },
 
-  /* 
+  /*
   查找二级分类列表
   */
   getCategorys2(category1Id) {
@@ -22,7 +22,7 @@ export default {
     })
   },
 
-  /* 
+  /*
   查找三级分类列表
   */
   getCategorys3(category2Id) {
