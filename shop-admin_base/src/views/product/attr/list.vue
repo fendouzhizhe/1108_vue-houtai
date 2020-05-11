@@ -99,7 +99,7 @@
                 v-else
                 @click="toEditValue(row)"
                 style="display:inline-block;width :100%"
-              >{{row.valueName}}</span>
+              >{{ row.valueName }}</span>
             </template>
           </el-table-column>
           <el-table-column label="操作">
